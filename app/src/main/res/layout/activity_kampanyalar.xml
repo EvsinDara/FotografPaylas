@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kampanyalar"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+        android:autoSizeTextType="uniform"
+        android:text="OPIA KAMPANYALAR"
+        android:textColor="#BD9D60"
+        android:textSize="25dp"
+        android:textStyle="italic"
+
+        >
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="181dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/opia_logooo"
+        >
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="222dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:padding="40dp"
+        android:text="> En güzel Fotoğrafı Paylaşan Kişiye Latte Machiato\n\nKampanya bitiş tarihi: 05/10/202"
+        android:textColor="#BD9D60"
+        android:textSize="20dp"
+
+        />
+
+
+</LinearLayout>

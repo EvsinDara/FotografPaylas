@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profilfoto"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/yeni_logo_background"
+            android:onClick="profilsec">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/recycler_row_kullaniciadi"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Kullanici Adi"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            >
+
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/recycler_row_imageView"
+        android:layout_width="387dp"
+        android:layout_height="387dp"
+        android:layout_margin="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+
+        app:shapeAppearance="@style/cerceve"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:padding="8dp">
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="190dp"
+            android:background="@drawable/begeni_row"
+            android:baselineAligned="false"
+            android:onClick="onDefaultToggleClick"
+            android:text="ToggleButton"
+            android:textColor="@color/white"
+
+            android:textOff=""
+            android:textOn="" />
+
+        <ToggleButton
+            android:id="@+id/tongle_gulme"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="84dp"
+            android:layout_marginBottom="190dp"
+            android:background="@drawable/gulme"
+            android:baselineAligned="false"
+            android:onClick="gulmeclick"
+            android:text="ToggleButton"
+            android:textColor="@color/white"
+
+            android:textOff=""
+            android:textOn="" />
+
+        <ToggleButton
+            android:id="@+id/tongle_yorum"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="163dp"
+            android:layout_marginBottom="190dp"
+            android:background="@drawable/yorumyap_row"
+            android:baselineAligned="false"
+            android:onClick="yorumclick"
+            android:text="ToggleButton"
+            android:textColor="@color/white"
+
+            android:textOff=""
+            android:textOn="" />
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/recycler_row_yorumu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#EADFDF"
+        android:text="Kullanici yorumu"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/recycler_row_emaili"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Kullanici email"
+        android:textColor="@color/actionBarTittleColor"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+
+
+</LinearLayout>
+

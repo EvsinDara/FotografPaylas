@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179703721192",
+    "project_id": "opiapaylas",
+    "storage_bucket": "opiapaylas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179703721192:android:4d3c3e6e8616f509126d5d",
+        "android_client_info": {
+          "package_name": "com.example.fotografpaylas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179703721192-80tp0adjecgssntnhdk4tr37p74qnsrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU_yxJq-V59QtrcclnGJKy0jP7ZyQF-gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179703721192-80tp0adjecgssntnhdk4tr37p74qnsrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
